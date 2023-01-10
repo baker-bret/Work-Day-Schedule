@@ -1,14 +1,15 @@
+// Display current date in header
 var today = dayjs();
 $('#date-time').text(today.format('dddd, MMMM D, YYYY'));
 
-    // Function to save input from description to local sotrage
+// Function to save input from description to local sotrage
 $(document).ready(function () {
     $(".saveBtn").on("click", function () { 
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
         localStorage.setItem(time, text);
     })
-    // Function for timeblock indicators
+// Function for timeblock indicators
     function timeTracker() {
         var timeNow = moment().hour();
         $(".time-block").each(function () {
@@ -32,7 +33,7 @@ $(document).ready(function () {
         })
     }
 
-    // Display item from local storage
+ // Display item from local storage
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
