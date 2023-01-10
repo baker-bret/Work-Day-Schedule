@@ -1,38 +1,42 @@
-# Work Day Scheduler
-
-### URL : 
+# <Work Day Schedule>
 
 ## Description
-a simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-## User Story
-```
-- AS AN employee with a busy schedule
-- I WANT to add important events to a daily planner
-- SO THAT I can manage my time effectively
-```
+A work day application that allows you to plan out your day for each hour of a work day
 
-## Acceptance Criteria
-```
-- GIVEN I am using a daily planner to create a schedule
-- WHEN I open the planner
-- THEN the current day is displayed at the top of the calendar
-- WHEN I scroll down
-- THEN I am presented with time blocks for standard business hours
-- WHEN I view the time blocks for that day
-- THEN each time block is color-coded to indicate whether it is in the past, present, or future
-- WHEN I click into a time block
-- THEN I can enter an event
-- WHEN I click the save button for that time block
-- THEN the text for that event is saved in local storage
-- WHEN I refresh the page
-- THEN the saved events persist
-```
+## Installation
+
+Create an HTML with a descriptive header and a container for the timeblocks. Using Jquery, bootstrap, CSS apply attributes to the page to reflect the prompt. Using JavaScript apply fuctionality and user interaction with the page.
+
 
 ## Usage
-- This workday calendar display work hours of the day 8AM - 5PM.
-- On the top of the page, current day and date is diplayed.
-- Each time block is color coded to indicate whether it occurs in the past(gray), present(red), or future(green).
-- Each time block has an input field and save button where users can store their schedule.
-- Once it saved, it will store in their local storage.
-- This calendar is desktop and mobile compatible.
+
+## Credits
+
+Bret Baker - 
+
+## License
+
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
+---
+
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+
+## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
